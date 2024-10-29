@@ -1,0 +1,26 @@
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+}
